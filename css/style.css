@@ -1,0 +1,136 @@
+
+body{
+    background-color: #f9f9f9;
+    margin: 60px;
+    margin-top: 35;
+  }
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 100px;
+  }
+  
+  .navbar li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    padding: 20px;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    float: inline-start;
+  }
+  .logo {
+    width: 164px;
+    height: 53;
+    padding: 1%;
+  }
+  
+  .content {
+    width: 50%;
+    margin-left: auto;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .text {
+    width: 60%;
+  }
+  
+  .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  .skills {
+    margin-top: 100px;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+    justify-content: space-between;
+  
+  }
+  .container_card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 10px;
+    text-align: center;
+    width: 200px;
+    background-color: #E4E8EA;
+  }
+  
+  .card_image {
+    border-radius: 0%;
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .card_title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0057FF;
+  }
+  
+  .card_text {
+    font-size: 16px;
+    color: #000;
+  }
+  .contact{
+    margin-top: 100px;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-wrapper {
+    text-align: center;
+  }
+  
+  .button-wrapper h4 {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  
+  .email-button,
+  .find-me-on {
+    position: relative;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .email-button {
+    margin-right: 50px;
+  }
+  
+  .find-me-on {
+    margin-left: 50px;
+  }
+  
+  
